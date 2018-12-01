@@ -1,0 +1,23 @@
+.container .main .jumbotron {
+    background: #5e9168;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px;
+}
+.container .main .jumbotron img {
+    width: 100px;
+    height: 100px;
+    
+
+}
+.container .main .jumbotron  .container h3{
+    
+    color: #ffffff;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 33px;
+}
+.container .main .jumbotron  .container p {
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+}
