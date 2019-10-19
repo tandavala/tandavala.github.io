@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
+title: Jose Tandavala
+description: My Personal Web Site
 author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+github: https://github.com/tandavala
+about: I'm Programmer for JavaScript & Dart. I've made quite a few web apps and mobile multipataform apps (iOS & Android).
+disqus_shortname: tandavala
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -15,30 +15,30 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  - icon: fa-facebook
+    link: "#"
+  - icon: fa-twitter
+    link: "#"
+  - icon: fa-linkedin
+    link: "#"
+  - icon: fa-stack-exchange
+    link: "#"
+  - icon: fa-github
+    link: "https://github.com/tandavala"
 
 share:
   twitter_username: github.io
-  fb_appid: 1749788565247320
+  fb_appid:
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://tandavala.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -53,4 +53,4 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: ['development']
+    envs: ["development"]

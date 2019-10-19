@@ -10,15 +10,18 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #F7F1F1;
+  border-top: 1px solid #f7f1f1;
   border-bottom: 1px solid #fff;
 }
-span.time, span.categories {
-  color: #ADADAD;
+span.time,
+span.categories {
+  color: #adadad;
   margin-bottom: 5px;
   font-size: 11px;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #696969;
   font-weight: normal;
 }
@@ -26,15 +29,18 @@ h1 {
   margin-bottom: 10px;
   font-size: 25px;
 }
-h2, h3 {
+h2,
+h3 {
   margin-bottom: 5px;
 }
-a, a:link, a:active {
+a,
+a:link,
+a:active {
   text-decoration: none;
   color: #3fa757;
 }
 a:hover {
-  color: #B3B3B3;
+  color: #b3b3b3;
   text-decoration: underline;
 }
 
@@ -52,30 +58,30 @@ a:hover {
 }
 .sidebar-nav li::before {
   content: "»";
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 /* Content */
 div.content pre {
   background: #333333;
   padding: 10px;
-  color: #FFF;
+  color: #fff;
   overflow-x: auto;
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 12px;
   border: none;
 }
 div.content .highlight {
-	background: #333333;
+  background: #333333;
 }
 footer {
-  border-top: 1px solid #F7F1F1;
+  border-top: 1px solid #f7f1f1;
   width: 100%;
   height: 10px;
   margin-top: 10px;
   margin-bottom: 3em;
   padding-top: 10px;
-  color: #C2C2C2;
+  color: #c2c2c2;
   font-size: 11px;
   bottom: 0;
   padding-bottom: 10px;
@@ -89,12 +95,12 @@ div.col-sm-3 {
 }
 div.col-sm-3 strong {
   font-size: 16px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-weight: normal;
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
-  color: #8C8C8C;
+  color: #8c8c8c;
 }
 
 /* Pagination */
@@ -118,7 +124,7 @@ div.col-sm-3 div.profile-about {
 }
 
 /* Social Icons */
-.social{
+.social {
   display: block;
   margin: 10px 0;
 }
@@ -136,7 +142,7 @@ div.col-sm-3 div.profile-about {
   color: #969394;
 }
 .social li a:hover {
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
 
 .share-page {
@@ -146,7 +152,7 @@ div.col-sm-3 div.profile-about {
 }
 .post-content img,
 .content img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 /* Responsive Conditional */
@@ -160,4 +166,9 @@ div.col-sm-3 div.profile-about {
   div.col-sm-3 {
     margin-top: 30px;
   }
+}
+
+/* code the profile*/
+.img-profile {
+  border-radius: 50%;
 }
