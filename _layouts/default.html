@@ -5,19 +5,19 @@
 </head>
 <main class="container">
     <section class="about">
-        <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
+        <img src="{{ "/assets/images/perfil.png" | relative_url }}" alt="{{ site.title }}">
         <h2>{{ site.title }}</h2>
         <p class="tagline">{{ site.about }}</p>
 
         <ul class="social">
             {%- if site.social_links.github -%}
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+				<a href="{{ site.github }}"><li><i class="icon-github-circled"></i></li></a>
             {%- endif -%}
             {%- if site.social_links.linkedIn -%}
-				<a href="https://www.linkedin.com/{{ site.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
+				<a href="{{ site.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
             {%- endif -%}
             {%- if site.social_links.twitter -%}
-                <a href="https://twitter.com/{{ site.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+                <a href="{{ site.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
             {%- endif -%}
         </ul>
         <p>&copy; 2019</p>
