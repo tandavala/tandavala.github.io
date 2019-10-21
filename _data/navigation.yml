@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Blog
-  link: /blog
+  link: /blog.html
 - name: Staff
-  link: /staff
+  link: /staff.html
 - name: About
-  link: /about
+  link: /about.html
 - name: Contact
-  link: /contact
+  link: /contact.html
