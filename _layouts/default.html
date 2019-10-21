@@ -5,7 +5,7 @@
 </head>
 <main class="container">
     <section class="about">
-        <img src="{{ "/assets/images/perfil.png" | relative_url }}" alt="{{ site.title }}">
+        <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
         <h2>{{ site.title }}</h2>
         <p class="tagline">{{ site.about }}</p>
 
@@ -20,6 +20,14 @@
                 <a href="{{ site.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
             {%- endif -%}
         </ul>
+          <hr />
+          <h2 class="navigation">Navigation</h2>
+          <ul class="sidebar-nav">
+            
+            {% for i in site.data.navigation %}
+              <li><a  href="{{ i.link }}">{{ i.name }}</a></li>
+            {% endfor %}
+          </ul>
         <p>&copy; 2019</p>
     </section>
     <section class="content">

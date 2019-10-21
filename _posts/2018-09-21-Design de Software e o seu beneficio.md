@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Integrating razorpay into your webapp"
-author: tanda
-categories: Javascript NodeJS
+title: "Design de Software e o seu Benefício"
+author: tandavala
+categories: Programação Design Software
 ---
 
 A banana is an edible fruit – botanically a berry – produced by several kinds

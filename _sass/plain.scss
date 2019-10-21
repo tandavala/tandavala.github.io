@@ -2,7 +2,7 @@
 @import "ext/normalize";
 @import "syntax";
 
-$linkColor: #0a59b0;
+$linkColor: #ac3b61;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -31,8 +31,9 @@ video {
 }
 
 a {
-  color: #8ee4af;
+  color: #907163;
   transition: color 0.3s;
+  text-decoration: none;
   &:hover {
     color: $linkColor;
   }
@@ -76,7 +77,28 @@ main {
     display: flex;
     height: 100vh;
     padding-bottom: 15vh;
-    background-color: #edf5e1;
+    background-color: #eee2dc;
+
+    .navigation {
+      margin-left: -29%;
+      text-transform: uppercase;
+      color: #ccc;
+      font-size: 1.2rem;
+    }
+    .sidebar-nav {
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar-nav li {
+      margin: 0;
+      list-style: none;
+      margin-top: 10px;
+    }
+    .sidebar-nav li::before {
+      content: "»";
+      margin-right: 0.5em;
+    }
+
     @media screen and (max-width: $mobileW) {
       height: auto;
       padding: 10vh 0;
@@ -96,12 +118,14 @@ main {
       font-weight: normal;
     }
     .tagline {
-      font-size: 22px;
+      font-size: 19px;
       margin-top: 17px;
       color: #aaa;
     }
     img {
-      max-width: 150px;
+      max-width: 120px;
+      border-radius: 10px;
+      margin-top: 30px;
     }
   }
 }
@@ -113,6 +137,7 @@ main {
     float: left;
     i {
       font-size: 34px;
+      color: #ccc;
     }
   }
 }
