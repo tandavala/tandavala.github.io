@@ -11,7 +11,7 @@
 
         <ul class="social">
             {%- if site.social_links.github -%}
-                <a href=""><i class="icon-github-circled""></i></a>
+				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
             {%- endif -%}
             {%- if site.social_links.linkedIn -%}
 				<a href="https://www.linkedin.com/{{ site.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
@@ -20,6 +20,10 @@
                 <a href="https://twitter.com/{{ site.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
             {%- endif -%}
         </ul>
+        <p>&copy; 2019</p>
+    </section>
+    <section class="content">
+        {{ content }}
     </section>
 </main>
 </body>
