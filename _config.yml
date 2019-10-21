@@ -1,17 +1,14 @@
-title: tandavala website
+title: tandavala blog
 author: tandavala
 email: jose.tandavala@gmail.com
-theme: humberto
-humberto:
-  name: Jose tandavala
-  tagline: Developer. Sofware
-  date_format: "%b %-d, %Y"
-  sitemap: true
+github: https://github.com/agusmakmun
+about: I'm Programmer for Javascript & Dart. I've made quite a few web apps, and mobile crossplataform apps.
 
-  # generate social links in footer
-  social_links:
-    github: tandavala
-    rss: rss
+
+social_links:
+  twitter: tandavala
+  github: tandavala
+  linkedIn: tandavala
 collections:
   authors:
     output: true
@@ -55,7 +52,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-theme: humberto
 plugins:
   - jekyll-feed
   - jekyll-sitemap
