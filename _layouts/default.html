@@ -25,7 +25,7 @@
           <ul class="sidebar-nav">
             
             {% for i in site.data.navigation %}
-              <li><a  href="{{ i.link }}">{{ i.name }}</a></li>
+              <li><a  href="{{ i.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ i.name }}</a></li>
             {% endfor %}
           </ul>
         <p>&copy; 2019</p>
