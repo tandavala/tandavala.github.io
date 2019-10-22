@@ -5,9 +5,9 @@
 </head>
 <main class="container">
     <section class="about">
-            <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
-            <h2>{{ site.title }}</h2>
-            <p class="tagline">{{ site.about }}</p>
+        <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
+        <h2>{{ site.title }}</h2>
+        <p class="tagline">{{ site.about }}</p>
         
 
         <ul class="social">
@@ -22,14 +22,15 @@
             {%- endif -%}
         </ul>
           <hr />
-          <h2 class="navigation">Navigation</h2>
+          <div class="humberto-divide"></div>
+        
           <ul class="sidebar-nav">
             
             {% for i in site.data.navigation %}
-              <li><a  href="{{ i.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ i.name }}</a></li>
+              <li><a  href="{{ i.link }}" {% if page.url == item.link %} class="currenti" {% endif %}>{{ i.name }}</a></li>
             {% endfor %}
           </ul>
-        <p>&copy; 2019</p>
+        <p class="humberto-copy">&copy; 2019</p>
     </section>
     <section class="content">
          <div class="humberto-skills">
@@ -53,6 +54,9 @@
          </div>
         {{ content }}
     </section>
+    <footer class="humberto-footer">
+      <p>Este e o meu site 2019</p>
+    </footer>
 </main>
 </body>
 </html>
