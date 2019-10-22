@@ -5,9 +5,10 @@
 </head>
 <main class="container">
     <section class="about">
-        <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
-        <h2>{{ site.title }}</h2>
-        <p class="tagline">{{ site.about }}</p>
+            <img src="{{ "/assets/images/perfil.jpg" | relative_url }}" alt="{{ site.title }}">
+            <h2>{{ site.title }}</h2>
+            <p class="tagline">{{ site.about }}</p>
+        
 
         <ul class="social">
             {%- if site.social_links.github -%}
@@ -31,6 +32,25 @@
         <p>&copy; 2019</p>
     </section>
     <section class="content">
+         <div class="humberto-skills">
+           <ul>
+             <li>
+               <img src="{{ "/assets/images/linux.png" | relative_url }}"  alt="{{ site.title }}">
+             </li>
+             <li>
+                <img src="{{ "/assets/images/js.png" | relative_url }}"  alt="{{ site.title }}">
+              </li>
+              <li>
+                <img src="{{ "/assets/images/react.png" | relative_url }}"  alt="{{ site.title }}">
+              </li>
+              <li>
+                <img src="{{ "/assets/images/flutter.png" | relative_url }}"  alt="{{ site.title }}">
+              </li>
+              <li>
+                <img src="{{ "/assets/images/firebase.jpeg" | relative_url }}"  alt="{{ site.title }}">
+              </li>
+           </ul>
+         </div>
         {{ content }}
     </section>
 </main>

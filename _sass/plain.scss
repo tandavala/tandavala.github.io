@@ -38,16 +38,6 @@ a {
     color: $linkColor;
   }
 }
-.current {
-  color: $linkColor;
-}
-.nd-container {
-  margin-left: 100px;
-}
-.beta {
-  color: $linkColor;
-  margin-left: 20px;
-}
 h2 {
   margin: 0.7em 0;
 }
@@ -75,6 +65,18 @@ main {
     margin: 0;
   }
 
+  .humberto-skills {
+    float: right;
+    img {
+      width: 20px;
+    }
+    ul li {
+      list-style-type: none;
+      float: left;
+      padding-left: 10px;
+    }
+  }
+
   .content {
     @media screen and (min-width: $mobileW + 1) {
       max-width: calc(100% - #{$leftWidth});
@@ -87,6 +89,9 @@ main {
     height: 100vh;
     padding-bottom: 15vh;
     background-color: #eee2dc;
+
+    .bumberto-head {
+    }
 
     .navigation {
       margin-left: -29%;
@@ -132,8 +137,8 @@ main {
       color: #aaa;
     }
     img {
-      max-width: 120px;
-      border-radius: 10px;
+      max-width: 80px;
+      border-radius: 50%;
       margin-top: 69px;
     }
   }
@@ -142,10 +147,11 @@ main {
   list-style-type: none;
   padding: 0;
   margin-top: 0;
+
   li {
     float: left;
     i {
-      font-size: 34px;
+      font-size: 25px;
       color: #ccc;
     }
   }
@@ -230,6 +236,15 @@ main {
   h6 {
     font-family: Raleway, sans-serif;
   }
+}
+
+.current {
+  color: $linkColor;
+}
+
+.beta {
+  color: $linkColor;
+  margin-left: 20px;
 }
 
 #posts-label {
