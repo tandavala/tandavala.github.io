@@ -127,6 +127,21 @@ header {
 .clearfix {
   clear: both;
 }
+.title {
+  color: #ccc;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  &:after {
+    display: block;
+    height: 2px;
+    background-color: #ccc;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
 
 //
 // Basic Container Class
