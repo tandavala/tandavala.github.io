@@ -19,7 +19,8 @@ layout: page
     </div>
 
     <div class="post">
-      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+      {%- if site.show_excerpts -%} {{ post.excerpt | truncatewords: 100 }} {%-
+      endif -%}
     </div>
   </li>
   {%- endfor -%}
