@@ -19,9 +19,10 @@ $lightGray: #eee;
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Arvo", sans-serif;
   @include fluidType(16px, 19px);
   line-height: 1.55em;
+  font-weight: 300;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,6 +81,18 @@ header {
           height: 30px;
           border-radius: 7px;
         }
+        @media (max-width: 768px) {
+          img {
+            margin-top: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 7px;
+          }
+          .profile {
+            width: 70px;
+            height: 70px;
+          }
+        }
       }
     }
   }
@@ -89,6 +102,13 @@ header {
     height: 80px;
     border: 2px solid #fff;
     border-radius: 50%;
+
+    @media (max-width: 768px) {
+      & {
+        width: 60px;
+        height: 60px;
+      }
+    }
   }
   // background-size: cover;
   padding: 20px 0;
@@ -97,9 +117,18 @@ header {
   h2 {
     font-weight: normal;
     margin-top: 5px;
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
   h1 {
     margin: 0;
+    font-family: Arvo;
+    font-weight: 400;
+    font-size: 2.9rem;
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
   }
 
   .social {
