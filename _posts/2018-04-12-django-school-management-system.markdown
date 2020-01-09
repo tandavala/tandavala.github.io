@@ -10,6 +10,6 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 This project was built with django fullstack
 
-<img src="/assets/images/projects/School.png" >
+<img src="/assets/images/projects/school.png" >
 
 If you would like to know more about this project click on this [link](https://github.com/ISPM-Benguela/escolari)
