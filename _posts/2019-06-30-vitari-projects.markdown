@@ -6,10 +6,10 @@ date: 2019-05-23 21:03:36 +0530
 categories: Javascript ReactJS Firebase
 ---
 
-Programação de computadores é uma coisa que mexe muito comigo, particularmente programação web e programação mobile, tenho vindo a aprendendo a programar muito antes de ir na universidade, desde 2014 até aqui aprendi muito sobre programação web as ferramentas que usei muito são django e Laravel para pequenos projectos e consequentimente isso me deu a possibilidade de ajudar muitos dos meus amigos nos seus trabalhos do final de curso, de um tempo para cá novas ferramentas têm sido criado e o **React js** é uma delas, desde que eu conheci essa ferramenta tenho desenvolvido pequenos aplicativos web para poder aprender mais sobre essa bibliotecca.
+Computer programming is something that moves me a lot, especially web programming and mobile programming, I have learned to program long before i started my university (2017), since 2014 I have learned so much about web programming, i have been using extensively django and Laravel with theses framework i built lots of small projects and consequently this gave me the possibility to help many of my friends in their final project from university, nows days new tools are been created and ** React js ** is one of them, since I found out this library I have been developing small web applications to learn more about this tecnology.
 
-Vitari Projects é mais um dos softwares que eu desenvolvi usando o **React JS** com **Firebase**.
+Project Project is a simple project based on Firebase and Reactjs
 
 <img src="/assets/images/projects/vitari-projects.png" >
 
-Se quisers saber mais sobre este projecto clica neste [link](https://github.com/tandavala/vitari-projectos)
+If you would like to know more about this project click on this [link](https://github.com/tandavala/vitari-projectos)
