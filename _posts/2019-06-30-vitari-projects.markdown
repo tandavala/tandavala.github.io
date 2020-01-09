@@ -2,7 +2,7 @@
 layout: post
 title: "Vitari Projects"
 description: React and firebase based project.
-date: 2019-05-23 21:03:36 +0530
+date: 2019-12-29 21:03:36 +0530
 categories: Javascript ReactJS Firebase
 ---
 
