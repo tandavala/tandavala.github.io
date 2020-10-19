@@ -43,5 +43,13 @@
       </div>
     </main>
     {%- include footer.html -%}
+
+    <script>
+      const goBack = document.getElementById('back');
+
+      goBack.addEventListener('click', function(){
+        window.history.go(-1)
+      })
+    </script>
   </body>
 </html>
