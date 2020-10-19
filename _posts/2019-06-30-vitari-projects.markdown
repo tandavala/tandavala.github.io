@@ -13,3 +13,5 @@ Project Project is a simple project based on Firebase and Reactjs
 <img src="/assets/images/projects/vitari-projects.png" >
 
 If you would like to know more about this project click on this [link](https://github.com/tandavala/vitari-projectos) or visit the [demo](https://blog-906fc.firebaseapp.com/)
+
+<a href="#" id="back">Go back</a>

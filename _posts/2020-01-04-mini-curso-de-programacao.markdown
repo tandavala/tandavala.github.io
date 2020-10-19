@@ -15,3 +15,5 @@ O.B.S: Este mini curso está sendo desenvolvido pensado particularmente nos estu
 <img src="/assets/images/projects/curso-programacao.jpg" >
 
 If you would like to know more about this project click on this [link](https://github.com/ISPM-Benguela/curso-introdutorio-de-programacao)
+
+<a href="#" id="back">Go back</a>

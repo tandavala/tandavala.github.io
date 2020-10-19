@@ -11,3 +11,5 @@ Uploading is the transmission of a file from one computer system to another, usu
 In this mini project i build a file upload sistem which upload file to firebase storage.
 
 If you would like to know more about this project click on this [link](https://github.com/tandavala/upload-image-react-firebase)
+
+<a href="#" id="back">Go back</a>

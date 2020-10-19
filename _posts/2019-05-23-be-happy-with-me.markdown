@@ -14,4 +14,6 @@ LightHouse tests if your app:
 - Uses certain accessibility best practices
   <img src="/assets/images/projects/behappywith.me.png" >
 
-If you would like to know more about this project click on this [link](https://github.com/tandavala/vitari-projectos) or visit the [demo](https://bomcaracter-ce053.firebaseapp.com/) build by me
+If you would like to know more about this project click on this [link](https://github.com/tandavala/vitari-projectos) or visit the [demo](https://bomcaracter-ce053.firebaseapp.com/)
+
+<a href="#" id="back">Go back</a>
