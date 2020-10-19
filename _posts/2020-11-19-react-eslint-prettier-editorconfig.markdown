@@ -10,6 +10,6 @@ It is obvious that software developers spend most of their time solving those is
 
 This practive increase efficiency throughout the software process and in this code use choose to use airbnb style combing with prettier and editorconfig.
 
-If you would like to know more about this project click on this [link](https://github.com/tandavala/react-eslint-prittier-editorconfig)
+If you would like to know more about this project click on this [link](https://github.com/tandavala/react-eslint-prettier-editorconfig)
 
 <a href="#" id="back">Go back</a>
