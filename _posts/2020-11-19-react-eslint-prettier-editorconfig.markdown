@@ -2,7 +2,7 @@
 layout: post
 title: " Setting up React, eslint, prettier, and editorconfig for code standard and good presentation code"
 description: Coding standard are very important because they help in developement of software that are less complex and thereby reduce the errors.
-date: 2020-01-10 19:18:36 +0530
+date: 2020-10-10 15:26:12 +0530
 categories: Airbnb Eslint Prettier
 ---
 
