@@ -2,7 +2,7 @@ title: tandavala's portofolio
 author: José Tandavala
 email: jose.tandavala@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  My name is José Tandavala and i am software developer based in Lobito, apart from writting software i love listing to the good music and play guitar.
+  Backend Engineer, Open Source Enthusiast and I love the idea of solving real-world problems through software.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -13,7 +13,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: José Tandavala
-  tagline: Web Developer
+  tagline: Backend Engineer
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
