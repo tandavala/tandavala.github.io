@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diagnostically Predict Diabetes"
+title: "Diagnostically Predict Diabetes (Under development)"
 description: The primary goal of this software is to provide a diagnostic prediction of whether a patient has diabetes. It achieves this through a robust machine learning model that has been meticulously trained to accurately discern the presence or absence of diabetes in a patient.
 
 date: 2023-08-01 21:06:12 +0530
