@@ -16,10 +16,11 @@ The million-dollar question is: what to do with all this data? Good question, is
 # Checkout article already published
 
 
-- [Demystifying Machine Learning - Part I](https://dev.to/tandavala/descomplicando-machine-learning-parte-i-2b2f)
-- [Demystifying Machine Learning - Part II](https://dev.to/tandavala/descomplicando-machine-learning-parte-ii-3d05)
-- [Demystifying Machine Learning - Part III](https://dev.to/tandavala/descomplicando-machine-learning-parte-iii-c80)
-- [Demystifying Machine Learning - Part IV](https://dev.to/tandavala/descomplicando-machine-learning-parte-iv-2p1m)
+- [Demystifying Machine Learning - Part I (Introduction)](https://dev.to/tandavala/descomplicando-machine-learning-parte-i-2b2f)
+- [Demystifying Machine Learning - Part II (What is holding you back)](https://dev.to/tandavala/descomplicando-machine-learning-parte-ii-3d05)
+- [Demystifying Machine Learning - Part III (Understand CRISP-DM  in Practice)](https://dev.to/tandavala/descomplicando-machine-learning-parte-iii-c80)
+- [Demystifying Machine Learning - Part IV (Build a model to predict house price)](https://dev.to/tandavala/descomplicando-machine-learning-parte-iv-2p1m)
+- [Demystifying Machine Learning - Part V (Introduction: How to deploy ML projects)](https://dev.to/tandavala/descomplicando-machine-learning-parte-v-2md4)
 
 
 
