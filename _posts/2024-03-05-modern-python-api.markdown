@@ -4,7 +4,7 @@ title: "Modern Python API Stack"
 description: Welcome to Note API, a simple CRUD project showcasing the development of a web API using a modern tech stack.
 
 date: 2024-03-05 06:06:12 +0530
-categories: Python FastAPI Docker Pytest
+categories: Python FastAPI Docker Pytest Postgres
 ---
 
 Welcome to Note API, a simple CRUD project showcasing the development of a web API using a modern tech stack:
